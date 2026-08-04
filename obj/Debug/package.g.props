@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">notesapp</PackageJsonName>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
+    <PackageJsonType Condition="$(PackageJsonType) == ''">module</PackageJsonType>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">oxlint</PackageJsonScriptsLint>
+    <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
+    <PackageJsonDependenciesAwsAmplify Condition="$(PackageJsonDependenciesAwsAmplify) == ''">^6.20.0</PackageJsonDependenciesAwsAmplify>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^19.2.8</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^19.2.8</PackageJsonDependenciesReactDom>
+    <PackageJsonDevdependenciesAwsAmplifyBackend Condition="$(PackageJsonDevdependenciesAwsAmplifyBackend) == ''">^1.24.0</PackageJsonDevdependenciesAwsAmplifyBackend>
+    <PackageJsonDevdependenciesAwsAmplifyBackendCli Condition="$(PackageJsonDevdependenciesAwsAmplifyBackendCli) == ''">^1.9.0</PackageJsonDevdependenciesAwsAmplifyBackendCli>
+    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^19.2.17</PackageJsonDevdependenciesTypesReact>
+    <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^19.2.3</PackageJsonDevdependenciesTypesReactDom>
+    <PackageJsonDevdependenciesVitejsPluginReact Condition="$(PackageJsonDevdependenciesVitejsPluginReact) == ''">^6.0.4</PackageJsonDevdependenciesVitejsPluginReact>
+    <PackageJsonDevdependenciesAwsCdkLib Condition="$(PackageJsonDevdependenciesAwsCdkLib) == ''">^2.244.0</PackageJsonDevdependenciesAwsCdkLib>
+    <PackageJsonDevdependenciesBabelPluginReactCompiler Condition="$(PackageJsonDevdependenciesBabelPluginReactCompiler) == ''">^1.0.0</PackageJsonDevdependenciesBabelPluginReactCompiler>
+    <PackageJsonDevdependenciesConstructs Condition="$(PackageJsonDevdependenciesConstructs) == ''">^10.8.0</PackageJsonDevdependenciesConstructs>
+    <PackageJsonDevdependenciesEsbuild Condition="$(PackageJsonDevdependenciesEsbuild) == ''">^0.28.1</PackageJsonDevdependenciesEsbuild>
+    <PackageJsonDevdependenciesEslintPluginReactHooks Condition="$(PackageJsonDevdependenciesEslintPluginReactHooks) == ''">^7.1.1</PackageJsonDevdependenciesEslintPluginReactHooks>
+    <PackageJsonDevdependenciesOxlint Condition="$(PackageJsonDevdependenciesOxlint) == ''">^1.75.0</PackageJsonDevdependenciesOxlint>
+    <PackageJsonDevdependenciesTsx Condition="$(PackageJsonDevdependenciesTsx) == ''">^4.23.5</PackageJsonDevdependenciesTsx>
+    <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">^5.9.3</PackageJsonDevdependenciesTypescript>
+    <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^8.2.0</PackageJsonDevdependenciesVite>
+  </PropertyGroup>
+</Project>

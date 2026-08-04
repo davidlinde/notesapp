@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.5906584">
+  <PropertyGroup>
+	<StartupCommand>npm run dev</StartupCommand>
+	<JavaScriptTestRoot>src\</JavaScriptTestRoot>
+	<JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+	<!-- Allows the debugger to automatically await opening file, set breakpoints, and refresh the browser -->
+	<StartupUrl>http://localhost:5173</StartupUrl>
+  </PropertyGroup>
+  <ItemGroup>
+	<Content Include="**\*" Exclude="node_modules\**;dist\**;build\**;.vs\**;$(BaseIntermediateOutputPath)**;bin\**;obj\**" />
+  </ItemGroup>
+</Project>
